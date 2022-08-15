@@ -30,4 +30,6 @@ switch(nacionalidade) {
     case 'colombiana':
         console.log('A pessoa é da Colombia!')
         break
+    default:
+        console.log('nacionalidade não encontrada')
 }
